@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SingerList from './singerList';
+import Album from './album';
 import band from '../../Resources/images/vidar-nordli-mathisen-599293-unsplash.jpg';
 import Daniel from '../../Resources/images/austin-neill-222825-unsplash.jpg';
 import Sam from '../../Resources/images/slim-emcee-ug-the-poet-truth_from_africa_photography-460877-unsplash.jpg';
@@ -43,9 +44,13 @@ const nanoData = [
     return (
       <article>
         <h1>Meet the Nanonauts</h1>
+        <p>We are the Nanonauts!</p>
         <p>Our names are Holly, Dervla, Daniel and Sam</p>
         <p><img className="large" src={band} alt="bandPic"/></p>
         <SingerList nauts={this.state.nauts} />
+        <aside>
+          <Album />
+        </aside>
       </article>
     )
   }

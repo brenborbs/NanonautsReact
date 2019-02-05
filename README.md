@@ -6,3 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - CRA Set-up , index.js set-up and app.js
 - Added navbar and initial routes
 - Added About-us details and images
+
+2nd commit:
+- Added album.js file
+- Improved side edges on html sections
