@@ -10,3 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2nd commit:
 - Added album.js file
 - Improved side edges on html sections
+
+3rd commit:
+- Added a simple Todo page
+- Added a simple flag game guessing 

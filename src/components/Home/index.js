@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Cond from './condition';
 
  class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2>Home</h2>
+        <Cond/>
       </React.Fragment>
     )
   }

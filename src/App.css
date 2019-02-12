@@ -1,4 +1,90 @@
-.App {
+.Todo-App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todo-App ol li {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.todo-input {
+  padding: 2px;
+  min-width: 250px;
+  min-height: 25px;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.save-button {
+  font-size: 1.2em;
+}
+
+.todo-content {
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  .todo-content {
+    width: 95%;
+  }
+}
+
+/* flag app */
+.flag-app {
   text-align: center;
 }
 
+.title-header {
+  display: flex;
+  height: 20vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: "#6b93d6";
+}
+
+.title-text {
+  font-size: 3.5em;
+  color: #e9eff9;
+  text-shadow: 3px 3px 4px black;
+}
+
+@media (max-width: 450px) {
+  .title-header {
+    height: 14vh;
+  }
+
+  .title-text {
+    font-size: 2.1em;
+  }
+}
+
+.flag-img {
+  max-height: 65vh;
+  max-width: 90%;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.flag-form {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+  font-size: 1.3em;
+}
+
+.flag-answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.flag-answer button {
+  margin-left: 25px;
+}

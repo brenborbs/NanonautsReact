@@ -24,6 +24,15 @@ import React, { Component } from 'react'
               <li>
                 <a href="/playing-a-concert">Playing A Concert</a>
               </li>
+              <li>
+                <a href="/todo">Todo's</a>
+              </li>
+              <li>
+                <a href="/hacker">Hacker</a>
+              </li>
+              <li>
+                <a href="/mapGame">Flag Game</a>
+              </li>
             </ul>
           </nav>
       </header>
